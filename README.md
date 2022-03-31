@@ -1,4 +1,4 @@
-# Repositoary for the instructions, code, and resources regarding the NeurIPS 2021 Datasets and Benchmarks paper "EventNarrative: A large-scale Event-centric Dataset for Knowledge Graph-to-Text Generation".
+# EventNarrative: A large-scale Event-centric Dataset for Knowledge Graph-to-Text Generation
 
 **EventNarrative: A large-scale Event-centric Dataset for Knowledge Graph-to-Text Generation** <br>
 Anthony Colas, Ali Sadeghian, Yue Wang, Daisy Wang<br>
@@ -119,3 +119,5 @@ We used the [chrF++](https://github.com/m-popovic/chrF) package for chrf++.
 - Our GraphWriter code is borrowed from [CycleGT](https://github.com/QipengGuo/CycleGT).<br>
 - Our BART/T5 code on KG to text is borrowed from the [UKPLab](https://github.com/UKPLab/plms-graph2text).<br>
 - Metrics were caluclated with [pycocoevalcap](https://github.com/salaniz/pycocoevalcap), [BLEUscore](https://github.com/huggingface/datasets), and [chrF++](https://github.com/m-popovic/chrF).
+
+We thank all the authors for their useful code.
