@@ -4,6 +4,9 @@
 Anthony Colas, Ali Sadeghian, Yue Wang, Daisy Wang<br>
 University of Florida <br>
 
+## Dataset Link
+https://www.kaggle.com/datasets/acolas1/eventnarration
+
 ## Getting Started
 We describe here how to pre-process the data. We start by first having a copy of events in EventKG that have a Wikidata and Wikipedia source and Wikidata triples for those events. For further information on EventKG please see the links below.
 
