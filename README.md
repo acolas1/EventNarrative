@@ -63,7 +63,7 @@ We provide the training/val/teting data split [here](www.kaggle.com/dataset/5514
 mkdir data/split_data/graphwriter/
 ```
 ```bash
-python utils/graphwriter.py
+python preprocess_baselines/graphwriter.py
 ```
 
 #### BART/T5
@@ -73,7 +73,7 @@ mkdir data/split_data/huggingface_bart/
 mkdir data/split_data/huggingface_t5/
 ```
 ```bash
-python utils/invest_huggingface.py
+python preprocess_baselines/invest_huggingface.py
 cp data/split_data/huggingface_t5/dev.source
 ```
 ### Training and Evaluation
