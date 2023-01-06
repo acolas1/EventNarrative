@@ -1,11 +1,26 @@
 # EventNarrative: A large-scale Event-centric Dataset for Knowledge Graph-to-Text Generation
 
-**EventNarrative: A large-scale Event-centric Dataset for Knowledge Graph-to-Text Generation** <br>
+**Abstract**: We introduce EventNarrative, a knowledge graph-to-text dataset from publicly available open-world knowledge graphs. Given the recent advances in event-driven Information Extraction (IE), and that prior research on graph-to-text only focused on entity-driven KGs, this paper focuses on event-centric data. However, our data generation system can still be adapted to other other types of KG data. Existing large-scale datasets in the graph-to-text area are non-parallel, meaning there is a large disconnect between the KGs and text. The datasets that have a paired KG and text, are small scale and manually generated or generated without a rich ontology, making the corresponding graphs sparse. Furthermore, these datasets contain many unlinked entities between their KG and text pairs. EventNarrative consists of approximately 230,000 graphs and their corresponding natural language text, 6 times larger than the current largest parallel dataset. It makes use of a rich ontology, all of the KGs entities are linked to the text, and our manual annotations confirm a high data quality. Our aim is two-fold: help break new ground in event-centric research where data is lacking, and to give researchers a well-defined, large-scale dataset in order to better evaluate existing and future knowledge graph-to-text models. We also evaluate two types of baseline on EventNarrative: a graph-to-text specific model and two state-of-the-art language models, which previous work has shown to be adaptable to the knowledge graph-to-text domain. 
+
 Anthony Colas, Ali Sadeghian, Yue Wang, Daisy Wang<br>
 University of Florida <br>
 
 ## Dataset Link
 https://www.kaggle.com/datasets/acolas1/eventnarration
+
+## Paper
+Accepted at the *Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1). 2021.*<br>
+Paper can be found [here](https://openreview.net/pdf?id=3ZQqjt_Q6b).
+
+Please cite:
+```
+@inproceedings{colas2021eventnarrative,
+  title={EventNarrative: A Large-scale Event-centric Dataset for Knowledge Graph-to-Text Generation},
+  author={Colas, Anthony and Sadeghian, Ali and Wang, Yue and Wang, Daisy Zhe},
+  booktitle={Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1)},
+  year={2021}
+}
+```
 
 ## Getting Started
 We describe here how to pre-process the data. We start by first having a copy of events in EventKG that have a Wikidata and Wikipedia source and Wikidata triples for those events. For further information on EventKG please see the links below.
@@ -53,7 +68,7 @@ Note: We place the data from the last step into data/full_entities_in_text/. Cha
 **The workload for pre-processing fetching the data was distributed through multiple machines.**
 
 ### Preprocessing for Models
-We provide the training/val/teting data split [here](www.kaggle.com/dataset/551460c9e6dc73dfdf5bafa1b8a3ac8217c13b3845a602a68f049d1d08237d47)
+We provide the training/val/teting data split [here](https://www.kaggle.com/datasets/acolas1/eventnarration).
 
 - insert data into data/split_data/
 
